@@ -15,7 +15,7 @@ The dataset used was built and cleaned beforehand using R. The data encompasses 
 
 ## Methodology
 I used machine learning to train and test various models, encompassing Linear Regression, Lasso and Ridge Regressions, Support Vector Regressors (SVR), as well as Random Forest and Gradient Boost Regressors for this project. I used the Adjusted R2 for the test dataset to compare the models.
-![image](https://github.com/rodrigogarcia92/machine_learning_performance_prediction/assets/132176209/6c5d83d5-5aed-4367-980b-4d64c6b71435)
+![image](https://github.com/rodrigogarcia92/machine_learning_performance_prediction/assets/132176209/eaac3931-ccd3-4a7d-b2e3-19e77c4ec5de)
 
 The different "yn" variables (y1, y2, ... y5) represent distinct performance measures:
 
@@ -35,8 +35,10 @@ Finally, I conducted a comprehensive Grid Search, exploring various models and p
 Overall I was happy with the results, as the Adjusted R2 was very high given this is real data. The best model trained for predicting the Target Met Percentage (target_met_perc) was a Gradient Boost Regressor out of the box, while the best model for predicting the Variation of Performance (delta_achievement) was a Random Forest Regressor. In both cases, I achieved the models had an Adjusted R2 score close to 0.6.
 
 ### Model to predict Target Met Percentage
-![image](https://github.com/rodrigogarcia92/machine_learning_performance_prediction/assets/132176209/7a476a50-7455-4cb8-80fc-8fd7e444f0bf)
+![image](https://github.com/rodrigogarcia92/machine_learning_performance_prediction/assets/132176209/6e365875-f6c3-4f33-98d0-3daede19d396)
+
 
 ### Model to Predict the Variation of Performance
-![image](https://github.com/rodrigogarcia92/machine_learning_performance_prediction/assets/132176209/8e4d3e18-9d54-4758-a216-c433c5e5c316)
+![image](https://github.com/rodrigogarcia92/machine_learning_performance_prediction/assets/132176209/ee6894c6-2256-4b5b-98e8-a134b9e7d0e1)
+
 
