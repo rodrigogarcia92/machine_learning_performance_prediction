@@ -1,4 +1,4 @@
-# machine_learning_performance_prediction
+# Machine Learning for Performance Prediction
 Python Notebook: [performance_prediction_script.ipynb](https://github.com/rodrigogarcia92/machine_learning_performance_prediction/blob/4602b1acedd7d75ddcbe905f8fbba75db8de27f3/performance_prediction_script.ipynb)
 
 ## Scope of the Project
